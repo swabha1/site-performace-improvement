@@ -1,10 +1,10 @@
 {
   "name": "tony",
-  "description": "The demo site for the official Chrome DevTools load performance tutorial.",
-  "version": "0.0.0",
+  "description": "The demo site for the performance tutorial.",
+  "version": "1.0.0",
   "main": "server.js",
   "repository": {
-    "url": "https://glitch.com/edit/#!/tony"
+    "url": "https://github.com/swabha1/site-performace-improvement"
   },
   "license": "Apache-2.0",
   "scripts": {
@@ -13,26 +13,26 @@
     "develop": "npm run build && nodemon server.js"
   },
   "dependencies": {
-    "@material-ui/core": "^1.2.0",
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-preset-react": "^6.24.1",
-    "babel-runtime": "^6.26.0",
-    "compression": "^1.7.2",
-    "express": "^4.15.4",
-    "html-webpack-plugin": "^3.2.0",
-    "react": "^16.3.2",
-    "react-dom": "^16.4.0",
-    "react-router-dom": "^4.3.1",
-    "webpack": "^4.11.1"
+    "@material-ui/core": "1.2.0",
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.2",
+    "babel-preset-react": "6.24.1",
+    "babel-runtime": "6.26.0",
+    "compression": "1.7.2",
+    "express": "^4.17.1",
+    "html-webpack-plugin": "3.2.0",
+    "react": "16.3.2",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "4.3.1",
+    "webpack": "^4.41.4"
   },
   "devDependencies": {
-    "copy-webpack-plugin": "^4.5.1",
-    "file-loader": "^1.1.11",
-    "nodemon": "^1.17.5",
-    "webpack-cli": "^3.0.2"
+    "copy-webpack-plugin": "4.5.1",
+    "file-loader": "1.1.11",
+    "nodemon": "1.17.5",
+    "webpack-cli": "3.0.2"
   },
   "engines": {
-    "node": "8.x"
+    "node": "8.11.3"
   }
 }
